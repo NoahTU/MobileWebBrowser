@@ -22,7 +22,7 @@
         android:layout_alignParentEnd="true" />
 
     <EditText
-        android:layout_width="299dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textUri"
         android:id="@+id/url"
