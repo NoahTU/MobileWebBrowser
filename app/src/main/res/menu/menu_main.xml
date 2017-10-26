@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item
+        android:id="@+id/newTab"
+        android:title="New Tab"
+        android:icon="@drawable/ic_add_black_18dp"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/back"
+        android:title="Back"
+        android:icon="@drawable/ic_arrow_back_black_18dp"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/forward"
+        android:title="Forward"
+        android:icon="@drawable/ic_arrow_forward_black_18dp"
+        android:showAsAction="always"/>
+</menu>
